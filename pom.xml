@@ -146,4 +146,11 @@
             <url>http://10.7.14.75:8081/repository/nextgen-public/</url>
         </pluginRepository>
     </pluginRepositories>
+    <distributionManagement>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>Internal Snapshots</name>
+            <url>http://10.7.14.75:8081/repository/nextgen-snapshot/</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
