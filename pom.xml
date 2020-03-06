@@ -20,18 +20,6 @@
         <workflow-cps.version>2.30</workflow-cps.version>
         <configuration-as-code.version>1.35</configuration-as-code.version>
     </properties>
-    <profiles>
-        <profile>
-            <id>sonar</id>
-            <activation>
-                <activateByDefault>false</activateByDefault>
-            </activation>
-            <properties>
-                <sonar.host.url>http://10.7.14.75:9000</sonar.host.url>
-                <sonar.login></sonar.login>
-            </properties>
-        </profile>
-    </profiles>
     <licenses>
         <license>
             <name>MIT</name>
