@@ -6,6 +6,7 @@ pipeline {
         stage('Build') { 
             steps {
                 echo "Build"
+                sh 'mvn package'
             }
         }
         stage('Test') { 
@@ -16,6 +17,7 @@ pipeline {
         stage('Deploy') { 
             steps {
                 echo "Deploy"
+                sh 'mvn deploy'
             }
         }
     }
