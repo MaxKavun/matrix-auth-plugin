@@ -6,7 +6,6 @@ pipeline {
         stage('Build') { 
             steps {
                 echo "Build"
-                updateOptions()
             }
         }
         stage('Test') { 

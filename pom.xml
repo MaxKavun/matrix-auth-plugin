@@ -107,6 +107,16 @@
             <version>1.54</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>bf.example</groupId>
+            <artifactId>example</artifactId>
+            <version>0.0.1-20200413.113151-1</version>
+        </dependency>
+        <dependency>
+            <groupId>bf.counter</groupId>
+            <artifactId>counter</artifactId>
+            <version>0.0.1-20200413.113252-1</version>
+        </dependency>
     </dependencies>
 
     <repositories>
@@ -119,7 +129,7 @@
             </snapshots>
             <id>internal</id>
             <name>Internal Maven Repository</name>
-            <url>http://10.7.14.75:8081/repository/nextgen-public/</url>
+            <url>http://192.168.100.114:8081/repository/maven-snapshots/</url>
         </repository>
     </repositories>
     <pluginRepositories>
@@ -132,14 +142,14 @@
             </snapshots>
             <id>internal</id>
             <name>Internal Maven Plugin Repository</name>
-            <url>http://10.7.14.75:8081/repository/nextgen-public/</url>
+            <url>http://192.168.100.114:8081/repository/maven-releases/</url>
         </pluginRepository>
     </pluginRepositories>
     <distributionManagement>
         <snapshotRepository>
             <id>snapshots</id>
             <name>Internal Snapshots</name>
-            <url>http://10.7.14.75:8081/repository/nextgen-snapshot/</url>
+            <url>http://192.168.100.114:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 </project>
