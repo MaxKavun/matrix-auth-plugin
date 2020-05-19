@@ -108,38 +108,4 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
-    <repositories>
-        <repository>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-            <id>internal</id>
-            <name>Internal Maven Repository</name>
-            <url>http://10.7.14.75:8081/repository/nextgen-public/</url>
-        </repository>
-    </repositories>
-    <pluginRepositories>
-        <pluginRepository>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-            <id>internal</id>
-            <name>Internal Maven Plugin Repository</name>
-            <url>http://10.7.14.75:8081/repository/nextgen-public/</url>
-        </pluginRepository>
-    </pluginRepositories>
-    <distributionManagement>
-        <snapshotRepository>
-            <id>snapshots</id>
-            <name>Internal Snapshots</name>
-            <url>http://10.7.14.75:8081/repository/nextgen-snapshot/</url>
-        </snapshotRepository>
-    </distributionManagement>
 </project>
